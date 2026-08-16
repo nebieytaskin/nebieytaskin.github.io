@@ -150,6 +150,17 @@ section {
 .portfolio-card {
     background: #f8f5ee;
     color: #183f43;
+    min-height: 420px;
+    border-radius: 18px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 0;
+    border: 3px solid #d8b56a;
+}
+    background: #f8f5ee;
+    color: #183f43;
     min-height: 220px;
     border-radius: 18px;
     display: flex;
