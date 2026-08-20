@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html lang="tr">
-<head><meta name="google-site-verification" content="Kk8lztFdx4EhPjAJNqKeYPlx-cGjjaWYqYLN9DkiM-s" />
+<head>
 <meta charset="UTF-8">
+
+<meta name="google-site-verification" content="Kk8lztFdx4EhPjAJNqKeYPlx-cGjjawYqYLN9DkiM-s">
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <title>Nebiye Taşkın | Yapay Zekâ Destekli Görsel Tasarım</title>
@@ -9,6 +12,7 @@
 <meta name="description" content="Nebiye Taşkın - Yapay zekâ destekli görsel tasarım portföyü. Kurumsal tasarım, sosyal medya tasarımları, kitap ve manevi temalı görsel çalışmalar.">
 
 <style>
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -29,407 +33,401 @@ header {
     justify-content: center;
     text-align: center;
     padding: 60px 20px;
-    background: linear-gradient(135deg, #123d42, #0d2730);
+    background: linear-gradient(135deg, #123d42, #0d7370);
     color: white;
 }
 
-.hero {
-    max-width: 900px;
-}
-
-.heart {
-    font-size: 38px;
+header h1 {
+    font-size: 46px;
     margin-bottom: 20px;
 }
 
-.hero h1 {
-    font-size: clamp(42px, 8vw, 78px);
-    letter-spacing: 3px;
-    margin-bottom: 15px;
+header h2 {
+    font-size: 24px;
+    font-weight: normal;
+    margin-bottom: 20px;
 }
 
-.hero h2 {
-    font-size: clamp(20px, 4vw, 32px);
-    font-weight: 400;
-    color: #d8b56a;
-    margin-bottom: 25px;
-}
-
-.hero p {
+header p {
     max-width: 700px;
     margin: auto;
-    font-size: 19px;
-    color: #eee;
+    font-size: 18px;
 }
 
-.button {
+.buton {
     display: inline-block;
-    margin-top: 35px;
-    padding: 14px 30px;
-    background: #d8b56a;
+    margin-top: 30px;
+    padding: 13px 28px;
+    border-radius: 30px;
+    background: #f4d35e;
     color: #183f43;
     text-decoration: none;
-    border-radius: 30px;
     font-weight: bold;
 }
 
-section {
-    padding: 80px 7%;
+.bolum {
+    padding: 80px 20px;
+    max-width: 1100px;
+    margin: auto;
 }
 
-.section-title {
+.bolum-baslik {
     text-align: center;
     margin-bottom: 45px;
 }
 
-.section-title h2 {
-    font-size: 38px;
-    color: #123d42;
+.bolum-baslik h2 {
+    font-size: 34px;
+    margin-bottom: 10px;
 }
 
-.section-title p {
-    margin-top: 10px;
-    color: #777;
+.bolum-baslik p {
+    color: #587477;
 }
 
-.about {
-    max-width: 900px;
+.hakkimda {
+    max-width: 800px;
     margin: auto;
     text-align: center;
     font-size: 18px;
 }
 
-.services {
-    background: white;
-}
-
-.cards {
-    max-width: 1100px;
-    margin: auto;
+.hizmetler {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
     gap: 25px;
 }
 
-.card {
-    background: #f8f5ee;
+.hizmet {
+    background: white;
     padding: 30px;
-    text-align: center;
     border-radius: 18px;
-    border: 1px solid #e6dcc8;
-    transition: 0.3s;
+    text-align: center;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.08);
 }
 
-.card:hover {
+.hizmet h3 {
+    margin-bottom: 12px;
+}
+
+.kartlar {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+}
+
+.kart {
+    background: white;
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.10);
+    transition: transform 0.3s ease;
+}
+
+.kart:hover {
     transform: translateY(-6px);
 }
 
-.card .icon {
-    font-size: 42px;
-    margin-bottom: 15px;
+.kart img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    display: block;
 }
 
-.card h3 {
-    margin-bottom: 10px;
-    color: #123d42;
+.kart-icerik {
+    padding: 22px;
 }
 
-.portfolio {
+.kart h3 {
+    margin-bottom: 8px;
+    color: #0d7370;
+}
+
+.iletisim {
+    text-align: center;
+    background: #e8f1ed;
+    border-radius: 25px;
+    padding: 50px 25px;
+}
+
+.iletisim a {
+    color: #0d7370;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+    padding: 35px 20px;
     background: #123d42;
     color: white;
 }
 
-.portfolio .section-title h2 {
-    color: white;
-}
-
-.portfolio .section-title p {
-    color: #ddd;
-}
-
-.portfolio-card {
-    background: #f8f5ee;
-    color: #183f43;
-    min-height: 420px;
-    border-radius: 18px;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    padding: 0;
-    border: 3px solid #d8b56a;
-}
-    background: #f8f5ee;
-    color: #183f43;
-    min-height: 220px;
-    border-radius: 18px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    padding: 25px;
-    border: 3px solid #d8b56a;
-}
-
-.portfolio-card h3 {
-    font-size: 22px;
-    margin-bottom: 8px;
-}
-
-.contact {
-    text-align: center;
-}
-
-.contact-box {
-    max-width: 700px;
-    margin: auto;
-    background: white;
-    padding: 40px;
-    border-radius: 20px;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
-}
-
-.contact-box p {
-    margin: 12px 0;
-}
-
-footer {
-    background: #0d2730;
-    color: white;
-    text-align: center;
-    padding: 30px 20px;
-}
-
-.signature {
-    color: #d8b56a;
+.sari-kalp {
+    font-size: 24px;
     margin-top: 8px;
-    font-size: 18px;
 }
 
 @media (max-width: 600px) {
-    section {
-        padding: 60px 20px;
+
+    header h1 {
+        font-size: 34px;
     }
 
-    .hero h1 {
-        letter-spacing: 1px;
+    header h2 {
+        font-size: 20px;
     }
+
+    .bolum-baslik h2 {
+        font-size: 28px;
+    }
+
 }
+
 </style>
 </head>
 
 <body>
 
 <header>
-    <div class="hero">
-        <div class="heart">💛</div>
 
-        <h1>NEBİYE TAŞKIN</h1>
+<div>
 
-        <h2>Yapay Zekâ Destekli Görsel Tasarım</h2>
+<h1>Nebiye Taşkın</h1>
 
-        <p>
-            Tasarımlarınızı yalnızca görsel olarak değil,
-            bir hikâye ve duygu taşıyan özgün çalışmalar olarak
-            hayata geçiriyorum.
-        </p>
+<h2>Yapay Zekâ Destekli Görsel Tasarım</h2>
 
-        <a href="#calismalarim" class="button">
-            Çalışmalarımı Gör
-        </a>
-    </div>
+<p>
+Kitabınızın ruhunu görsele dönüştürüyorum.
+Kurumsal tasarım, sosyal medya, kitap ve manevi temalı
+özgün görsel çalışmalar hazırlıyorum.
+</p>
+
+<a href="#calismalarim" class="buton">Çalışmalarımı Gör</a>
+
+</div>
+
 </header>
 
-<section id="hakkimda">
-    <div class="section-title">
-        <h2>Hakkımda</h2>
-        <p>Tasarım, yaratıcılık ve teknoloji</p>
-    </div>
 
-    <div class="about">
-        <p>
-            Merhaba, ben Nebiye Taşkın.
-            Yapay zekâ destekli görsel tasarım alanında
-            özgün ve etkileyici çalışmalar hazırlıyorum.
-        </p>
+<section class="bolum">
 
-        <br>
+<div class="bolum-baslik">
 
-        <p>
-            Kurumsal tanıtım tasarımlarından sosyal medya
-            görsellerine, kitap çalışmalarından manevi ve
-            özel temalı tasarımlara kadar farklı alanlarda
-            görsel fikirleri profesyonel tasarımlara
-            dönüştürüyorum.
-        </p>
-    </div>
+<h2>Hakkımda</h2>
+
+<p>Yaratıcılık, tasarım ve yapay zekâyı bir araya getiriyorum.</p>
+
+</div>
+
+<div class="hakkimda">
+
+<p>
+Yapay zekâ destekli görsel tasarım alanında özgün çalışmalar
+hazırlıyorum. Tasarımın yalnızca güzel görünmesini değil,
+bir duygu ve hikâye taşımasını önemsiyorum.
+</p>
+
+<br>
+
+<p>
+Kurumsal çalışmalar, sosyal medya görselleri, kitap tasarımları,
+manevi temalı çalışmalar ve kişiye özel konseptler hazırlıyorum.
+</p>
+
+</div>
+
 </section>
 
-<section class="services">
 
-    <div class="section-title">
-        <h2>Hizmetlerim</h2>
-        <p>Fikrinizi görsele dönüştürüyorum.</p>
-    </div>
+<section class="bolum">
 
-    <div class="cards">
+<div class="bolum-baslik">
 
-        <div class="card">
-            <div class="icon">🎨</div>
-            <h3>Kurumsal Tasarım</h3>
-            <p>
-                Firma, marka ve kurumlar için
-                tanıtım ve reklam görselleri.
-            </p>
-        </div>
+<h2>Hizmetlerim</h2>
 
-        <div class="card">
-            <div class="icon">📱</div>
-            <h3>Sosyal Medya Tasarımı</h3>
-            <p>
-                Etkileyici ve dikkat çekici
-                sosyal medya görselleri.
-            </p>
-        </div>
+<p>İhtiyacınıza uygun özgün görsel tasarımlar.</p>
 
-        <div class="card">
-            <div class="icon">📖</div>
-            <h3>Kitap Tasarımı</h3>
-            <p>
-                Kitap kapağı, tanıtım görseli
-                ve kitap odaklı çalışmalar.
-            </p>
-        </div>
+</div>
 
-        <div class="card">
-            <div class="icon">✨</div>
-            <h3>Özel Tasarımlar</h3>
-            <p>
-                Manevi, özel gün ve kişiye özel
-                konsept görsel tasarımlar.
-            </p>
-        </div>
+<div class="hizmetler">
 
-    </div>
+<div class="hizmet">
+<h3>🎨 Kurumsal Tasarım</h3>
+<p>Markalar ve kurumlar için özgün görsel çalışmalar.</p>
+</div>
+
+<div class="hizmet">
+<h3>📱 Sosyal Medya</h3>
+<p>Sosyal medya için dikkat çekici ve özgün tasarımlar.</p>
+</div>
+
+<div class="hizmet">
+<h3>📖 Kitap Tasarımı</h3>
+<p>Kitap kapakları ve yazılı görsel çalışmalar.</p>
+</div>
+
+<div class="hizmet">
+<h3>💛 Manevi Tasarımlar</h3>
+<p>Dua, huzur ve manevi temalar üzerine özgün çalışmalar.</p>
+</div>
+
+</div>
+
 </section>
 
-<section class="portfolio" id="calismalarim">
 
-    <div class="section-title">
-        <h2>Çalışmalarım</h2>
-        <p>Portföyümden seçilmiş çalışmalar</p>
-    </div>
+<section class="bolum" id="calismalarim">
 
-    <div class="cards">
+<div class="bolum-baslik">
 
-    <div class="portfolio-card">
-        <div>
-            <img src="pusula-akademi.jpg.jpg" alt="Pusula Akademi Tasarımı">
-            <h3>Pusula Akademi</h3>
-            <p>
-                Eğitim kurumu için
-                kurumsal tanıtım tasarımı
-            </p>
-        </div>
-    </div>
+<h2>Çalışmalarım</h2>
 
-    <div class="portfolio-card">
-    <div>
-        <img src="vira-jpg.jpg" alt="Vira Gayrimenkul Tasarımı">
-            <h3>Vira Gayrimenkul</h3>
-            <p>
-                Gayrimenkul firması için
-                reklam ve tanıtım tasarımı
-            </p>
-        </div>
-    </div>
-
-    <div class="portfolio-card">
-        <div>
-            <img src="olduğum gibi sev beni 1.jpg" alt="Manevi Tasarım">
-            <h3>Manevi Tasarımlar</h3>
-            <p>
-                Dua, huzur ve manevi temalı
-                özgün görsel çalışmalar
-            </p>
-        </div>
-    </div>
-
-    <div class="portfolio-card">
-        <div>
-            <img src="KİTAP GÖRSELİ.jpg" alt="Kitap Tasarımı">
-            <h3>Kitap Tasarımı</h3>
-            <p>
-                Kitap tanıtımı ve
-                edebi temalı görsel çalışmalar
-            </p>
-        </div>
-    </div>
+<p>Portföyümden seçilmiş bazı çalışmalar.</p>
 
 </div>
 
 
-<section class="contact">
+<div class="kartlar">
 
-    <div class="section-title">
-        <h2>İletişim</h2>
-        <p>Bir fikriniz mi var?</p>
-    </div>
 
-    <div class="contact-box">
+<div class="kart">
 
-        <p>
-            Tasarım fikrinizi birlikte profesyonel bir görsele dönüştürelim.
-        </p>
-<section class="contact">
+<img src="görsel tasarım 1.jpg" alt="Görsel Tasarım">
 
-    <div class="section-title">
-        <h2>İletişim</h2>
-        <p>Bir fikriniz mi var?</p>
-    </div>
+<div class="kart-icerik">
 
-    <div class="contact-box">
+<h3>Görsel Tasarım</h3>
 
-    <p>
-        Tasarım fikrinizi birlikte profesyonel bir görsele dönüştürelim.
-    </p>
-
-    <p>
-        <strong>Nebiye Taşkın</strong>
-    </p>
-
-    <p>
-        Yapay Zekâ Destekli Görsel Tasarım
-    </p>
-
-    <p>
-        ✉️ <strong>E-posta:</strong>
-        <a href="mailto:nebiyetaskin7@gmail.com">
-            nebiyetaskin7@gmail.com
-        </a>
-    </p>
-
-    <p>
-        💚 <strong>WhatsApp:</strong>
-        <a href="https://wa.me/905012878285" target="_blank">
-            0501 287 82 85
-        </a>
-    </p>
-
-    <p>
-        🌐 <strong>Web:</strong>
-        <a href="https://nebieytaskin.github.io/" target="_blank">
-            nebieytaskin.github.io
-        </a>
-    </p>
+<p>
+Yapay zekâ destekli özgün görsel tasarım çalışmaları.
+</p>
 
 </div>
+
+</div>
+
+
+<div class="kart">
+
+<img src="KİTAP GÖRSELİ.jpg" alt="Kitap Tasarımı">
+
+<div class="kart-icerik">
+
+<h3>Kitap Tasarımları</h3>
+
+<p>
+Kitaplar ve yazılı görsel çalışmalar.
+</p>
+
+</div>
+
+</div>
+
+
+<div class="kart">
+
+<img src="gibi sev beni 1.jpg" alt="Manevi Tasarım">
+
+<div class="kart-icerik">
+
+<h3>Manevi Tasarımlar</h3>
+
+<p>
+Dua, huzur ve manevi temalar üzerine özgün görsel çalışmalar.
+</p>
+
+</div>
+
+</div>
+
+
+<div class="kart">
+
+<img src="meme kanseri umut.jpg" alt="Özel Temalı Tasarım">
+
+<div class="kart-icerik">
+
+<h3>Özel Temalı Çalışmalar</h3>
+
+<p>
+Duygu ve hikâye taşıyan özel konsept görseller.
+</p>
+
+</div>
+
+</div>
+
+
+<div class="kart">
+
+<img src="BEYAZ KURT.jpg" alt="Konsept Tasarım">
+
+<div class="kart-icerik">
+
+<h3>Konsept Tasarımlar</h3>
+
+<p>
+Hayal gücü ve yapay zekâ ile oluşturulan özgün çalışmalar.
+</p>
+
+</div>
+
+</div>
+
+
+<div class="kart">
+
+<img src="30 ağustos Atatürk.jpg" alt="Özel Gün Tasarımı">
+
+<div class="kart-icerik">
+
+<h3>Özel Gün Tasarımları</h3>
+
+<p>
+Milli ve özel günler için hazırlanan görsel çalışmalar.
+</p>
+
+</div>
+
+</div>
+
+
+</div>
+
 </section>
+
+
+<section class="bolum">
+
+<div class="iletisim">
+
+<h2>Bir fikriniz mi var?</h2>
+
+<p>
+Fikrinizi birlikte özgün bir görsele dönüştürelim.
+</p>
+
+<br>
+
+<p>
+<strong>Nebiye Taşkın</strong>
+</p>
+
+</div>
+
+</section>
+
 
 <footer>
-    <p>© 2026 Nebiye Taşkın</p>
-    <p class="signature">Tasarlayan: Nebiye Taşkın 💛</p>
+
+<p>Hazırlayan: Nebiye Taşkın</p>
+
+<p class="sari-kalp">💛</p>
+
 </footer>
+
 
 </body>
 </html>
