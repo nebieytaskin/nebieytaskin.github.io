@@ -2,30 +2,23 @@
 <html lang="tr">
 <head>
 <meta charset="UTF-8">
-
 <meta name="google-site-verification" content="Kk8lztFdx4EhPjAJNqKeYPlx-cGjjawYqYLN9DkiM-s">
-
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 <title>Nebiye Taşkın | Yapay Zekâ Destekli Görsel Tasarım</title>
-
 <meta name="description" content="Nebiye Taşkın - Yapay zekâ destekli görsel tasarım portföyü. Kurumsal tasarım, sosyal medya tasarımları, kitap ve manevi temalı görsel çalışmalar.">
 
 <style>
-
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
-
 body {
     font-family: Arial, Helvetica, sans-serif;
     background: #f8f5ee;
     color: #183f43;
     line-height: 1.6;
 }
-
 header {
     min-height: 90vh;
     display: flex;
@@ -36,24 +29,20 @@ header {
     background: linear-gradient(135deg, #123d42, #0d7370);
     color: white;
 }
-
 header h1 {
     font-size: 46px;
     margin-bottom: 20px;
 }
-
 header h2 {
     font-size: 24px;
     font-weight: normal;
     margin-bottom: 20px;
 }
-
 header p {
     max-width: 700px;
     margin: auto;
     font-size: 18px;
 }
-
 .buton {
     display: inline-block;
     margin-top: 30px;
@@ -64,40 +53,33 @@ header p {
     text-decoration: none;
     font-weight: bold;
 }
-
 .bolum {
     padding: 80px 20px;
     max-width: 1100px;
     margin: auto;
 }
-
 .bolum-baslik {
     text-align: center;
     margin-bottom: 45px;
 }
-
 .bolum-baslik h2 {
     font-size: 34px;
     margin-bottom: 10px;
 }
-
 .bolum-baslik p {
     color: #587477;
 }
-
 .hakkimda {
     max-width: 800px;
     margin: auto;
     text-align: center;
     font-size: 18px;
 }
-
 .hizmetler {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
     gap: 25px;
 }
-
 .hizmet {
     background: white;
     padding: 30px;
@@ -105,329 +87,248 @@ header p {
     text-align: center;
     box-shadow: 0 8px 25px rgba(0,0,0,0.08);
 }
-
 .hizmet h3 {
     margin-bottom: 12px;
 }
-
 .kartlar {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(min(250px, 100%), 1fr));
     gap: 30px;
 }
-
 .kart {
+    min-width: 0;
     background: white;
     border-radius: 18px;
     overflow: hidden;
     box-shadow: 0 8px 25px rgba(0,0,0,0.10);
     transition: transform 0.3s ease;
 }
-
 .kart:hover {
     transform: translateY(-6px);
 }
-
 .kart img {
     width: 100%;
     height: 220px;
     object-fit: cover;
     display: block;
 }
-
 .kart-icerik {
     padding: 22px;
 }
-
 .kart h3 {
     margin-bottom: 8px;
     color: #0d7370;
 }
-
 .iletisim {
     text-align: center;
     background: #e8f1ed;
     border-radius: 25px;
     padding: 50px 25px;
 }
-
 .iletisim a {
     color: #0d7370;
     font-weight: bold;
     text-decoration: none;
 }
-
 footer {
     text-align: center;
     padding: 35px 20px;
     background: #123d42;
     color: white;
 }
-
 .sari-kalp {
     font-size: 24px;
     margin-top: 8px;
 }
-
 @media (max-width: 600px) {
-
+    header {
+        min-height: 75vh;
+    }
     header h1 {
         font-size: 34px;
     }
-
     header h2 {
         font-size: 20px;
     }
-
+    header p {
+        font-size: 16px;
+    }
+    .bolum {
+        padding: 55px 16px;
+    }
     .bolum-baslik h2 {
         font-size: 28px;
     }
-
+    .kartlar {
+        grid-template-columns: 1fr;
+        gap: 22px;
+    }
+    .kart img {
+        height: auto;
+        max-height: 360px;
+        object-fit: contain;
+        background: #f2f2f2;
+    }
 }
-
 </style>
 </head>
 
 <body>
-
 <header>
-
-<div>
-
-<h1>Nebiye Taşkın</h1>
-
-<h2>Yapay Zekâ Destekli Görsel Tasarım</h2>
-
-<p>
-Kitabınızın ruhunu görsele dönüştürüyorum.
-Kurumsal tasarım, sosyal medya, kitap ve manevi temalı
-özgün görsel çalışmalar hazırlıyorum.
-</p>
-
-<a href="#calismalarim" class="buton">Çalışmalarımı Gör</a>
-
-</div>
-
+  <div>
+    <h1>Nebiye Taşkın</h1>
+    <h2>Yapay Zekâ Destekli Görsel Tasarım</h2>
+    <p>Kitabınızın ruhunu görsele dönüştürüyorum. Kurumsal tasarım, sosyal medya, kitap ve manevi temalı özgün görsel çalışmalar hazırlıyorum.</p>
+    <a href="#calismalarim" class="buton">Çalışmalarımı Gör</a>
+  </div>
 </header>
 
-
 <section class="bolum">
-
-<div class="bolum-baslik">
-
-<h2>Hakkımda</h2>
-
-<p>Yaratıcılık, tasarım ve yapay zekâyı bir araya getiriyorum.</p>
-
-</div>
-
-<div class="hakkimda">
-
-<p>
-Yapay zekâ destekli görsel tasarım alanında özgün çalışmalar
-hazırlıyorum. Tasarımın yalnızca güzel görünmesini değil,
-bir duygu ve hikâye taşımasını önemsiyorum.
-</p>
-
-<br>
-
-<p>
-Kurumsal çalışmalar, sosyal medya görselleri, kitap tasarımları,
-manevi temalı çalışmalar ve kişiye özel konseptler hazırlıyorum.
-</p>
-
-</div>
-
+  <div class="bolum-baslik">
+    <h2>Hakkımda</h2>
+    <p>Yaratıcılık, tasarım ve yapay zekâyı bir araya getiriyorum.</p>
+  </div>
+  <div class="hakkimda">
+    <p>Yapay zekâ destekli görsel tasarım alanında özgün çalışmalar hazırlıyorum. Tasarımın yalnızca güzel görünmesini değil, bir duygu ve hikâye taşımasını önemsiyorum.</p>
+    <br>
+    <p>Kurumsal çalışmalar, sosyal medya görselleri, kitap tasarımları, manevi temalı çalışmalar ve kişiye özel konseptler hazırlıyorum.</p>
+  </div>
 </section>
 
-
 <section class="bolum">
-
-<div class="bolum-baslik">
-
-<h2>Hizmetlerim</h2>
-
-<p>İhtiyacınıza uygun özgün görsel tasarımlar.</p>
-
-</div>
-
-<div class="hizmetler">
-
-<div class="hizmet">
-<h3>🎨 Kurumsal Tasarım</h3>
-<p>Markalar ve kurumlar için özgün görsel çalışmalar.</p>
-</div>
-
-<div class="hizmet">
-<h3>📱 Sosyal Medya</h3>
-<p>Sosyal medya için dikkat çekici ve özgün tasarımlar.</p>
-</div>
-
-<div class="hizmet">
-<h3>📖 Kitap Tasarımı</h3>
-<p>Kitap kapakları ve yazılı görsel çalışmalar.</p>
-</div>
-
-<div class="hizmet">
-<h3>💛 Manevi Tasarımlar</h3>
-<p>Dua, huzur ve manevi temalar üzerine özgün çalışmalar.</p>
-</div>
-
-</div>
-
+  <div class="bolum-baslik">
+    <h2>Hizmetlerim</h2>
+    <p>İhtiyacınıza uygun özgün görsel tasarımlar.</p>
+  </div>
+  <div class="hizmetler">
+    <div class="hizmet">
+      <h3>🎨 Kurumsal Tasarım</h3>
+      <p>Markalar ve kurumlar için özgün görsel çalışmalar.</p>
+    </div>
+    <div class="hizmet">
+      <h3>📱 Sosyal Medya</h3>
+      <p>Sosyal medya için dikkat çekici ve özgün tasarımlar.</p>
+    </div>
+    <div class="hizmet">
+      <h3>📖 Kitap Tasarımı</h3>
+      <p>Kitap kapakları ve yazılı görsel çalışmalar.</p>
+    </div>
+    <div class="hizmet">
+      <h3>💛 Manevi Tasarımlar</h3>
+      <p>Dua, huzur ve manevi temalar üzerine özgün çalışmalar.</p>
+    </div>
+  </div>
 </section>
-
 
 <section class="bolum" id="calismalarim">
+  <div class="bolum-baslik">
+    <h2>Çalışmalarım</h2>
+    <p>Portföyümden seçilmiş bazı çalışmalar.</p>
+  </div>
 
-<div class="bolum-baslik">
+  <div class="kartlar">
+    <div class="kart">
+      <img src="Bipolar Farkındalık_ Bilgi, Destek ve Umut.jpg" alt="Bipolar farkındalık çalışması" loading="lazy">
+      <div class="kart-icerik">
+        <h3>Sağlık Farkındalığı</h3>
+        <p>Bilgi, destek, umut ve sağlık konusunda farkındalık oluşturan görsel çalışmalar.</p>
+      </div>
+    </div>
 
-<h2>Çalışmalarım</h2>
+    <div class="kart">
+      <img src="Meme Kanseri_ Umut ve Dönüşüm Yolculuğu.jpg" alt="Meme kanseri farkındalık çalışması" loading="lazy">
+      <div class="kart-icerik">
+        <h3>Sağlıkta Umut ve Farkındalık</h3>
+        <p>Sağlık yolculuklarını ve toplumsal farkındalığı anlatan tasarımlar.</p>
+      </div>
+    </div>
 
-<p>Portföyümden seçilmiş bazı çalışmalar.</p>
+    <div class="kart">
+      <img src="sadettin ök ten kemal sayar.jpg" alt="Kitap tanıtım tasarımı" loading="lazy">
+      <div class="kart-icerik">
+        <h3>Kitap Tanıtımları</h3>
+        <p>Kitapların ruhunu yansıtan, okurun ilgisini çeken tanıtım görselleri.</p>
+      </div>
+    </div>
 
-</div>
+    <div class="kart">
+      <img src="SONSUZLUK YOLCULUĞU TASARIM.jpg" alt="Kitap tanıtım görseli" loading="lazy">
+      <div class="kart-icerik">
+        <h3>Edebî ve Tematik Tasarımlar</h3>
+        <p>Kitaplar ve edebî eserler için hazırlanan özgün görseller.</p>
+      </div>
+    </div>
 
+    <div class="kart">
+      <img src="Akıllı İşbirliğinin İlham Veren Gücü.jpg" alt="Sosyal medya tasarımı" loading="lazy">
+      <div class="kart-icerik">
+        <h3>Sosyal Medya Tasarımları</h3>
+        <p>Markalar ve dijital iletişim için hazırlanan yaratıcı gönderiler.</p>
+      </div>
+    </div>
 
-<div class="kartlar">
+    <div class="kart">
+      <img src="görsel tasarım 1.jpg" alt="Görsel tasarım çalışması" loading="lazy">
+      <div class="kart-icerik">
+        <h3>Görsel Tasarım</h3>
+        <p>Yapay zekâ destekli özgün görsel tasarım çalışmaları.</p>
+      </div>
+    </div>
 
+    <div class="kart">
+      <img src="KİTAP GÖRSELİ.jpg" alt="Kitap tasarımı" loading="lazy">
+      <div class="kart-icerik">
+        <h3>Kitap Tasarımları</h3>
+        <p>Kitaplar ve yazılı görsel çalışmalar.</p>
+      </div>
+    </div>
 
-<div class="kart">
+    <div class="kart">
+      <img src="manevi.jpg" alt="Manevi tasarım" loading="lazy">
+      <div class="kart-icerik">
+        <h3>Manevi Tasarımlar</h3>
+        <p>Dua, huzur ve manevi temalar üzerine özgün görsel çalışmalar.</p>
+      </div>
+    </div>
 
-<img src="görsel tasarım 1.jpg" alt="Görsel Tasarım">
+    <div class="kart">
+      <img src="meme kanseri umut.jpg" alt="Özel temalı tasarım" loading="lazy">
+      <div class="kart-icerik">
+        <h3>Özel Temalı Çalışmalar</h3>
+        <p>Duygu ve hikâye taşıyan özel konsept görseller.</p>
+      </div>
+    </div>
 
-<div class="kart-icerik">
+    <div class="kart">
+      <img src="BEYAZ KURT.jpg" alt="Konsept tasarım" loading="lazy">
+      <div class="kart-icerik">
+        <h3>Konsept Tasarımlar</h3>
+        <p>Hayal gücü ve yapay zekâ ile oluşturulan özgün çalışmalar.</p>
+      </div>
+    </div>
 
-<h3>Görsel Tasarım</h3>
-
-<p>
-Yapay zekâ destekli özgün görsel tasarım çalışmaları.
-</p>
-
-</div>
-
-</div>
-
-
-<div class="kart">
-
-<img src="KİTAP GÖRSELİ.jpg" alt="Kitap Tasarımı">
-
-<div class="kart-icerik">
-
-<h3>Kitap Tasarımları</h3>
-
-<p>
-Kitaplar ve yazılı görsel çalışmalar.
-</p>
-
-</div>
-
-</div>
-
-
-<div class="kart">
-
-<img src="manevi.jpg" alt="Manevi Tasarım">
-
-<div class="kart-icerik">
-
-<h3>Manevi Tasarımlar</h3>
-
-<p>
-Dua, huzur ve manevi temalar üzerine özgün görsel çalışmalar.
-</p>
-
-</div>
-
-</div>
-
-
-<div class="kart">
-
-<img src="meme kanseri umut.jpg" alt="Özel Temalı Tasarım">
-
-<div class="kart-icerik">
-
-<h3>Özel Temalı Çalışmalar</h3>
-
-<p>
-Duygu ve hikâye taşıyan özel konsept görseller.
-</p>
-
-</div>
-
-</div>
-
-
-<div class="kart">
-
-<img src="BEYAZ KURT.jpg" alt="Konsept Tasarım">
-
-<div class="kart-icerik">
-
-<h3>Konsept Tasarımlar</h3>
-
-<p>
-Hayal gücü ve yapay zekâ ile oluşturulan özgün çalışmalar.
-</p>
-
-</div>
-
-</div>
-
-
-<div class="kart">
-
-<img src="30 ağustos Atatürk.jpg" alt="Özel Gün Tasarımı">
-
-<div class="kart-icerik">
-
-<h3>Özel Gün Tasarımları</h3>
-
-<p>
-Milli ve özel günler için hazırlanan görsel çalışmalar.
-</p>
-
-</div>
-
-</div>
-
-
-</div>
-
+    <div class="kart">
+      <img src="30 ağustos Atatürk.jpg" alt="Özel gün tasarımı" loading="lazy">
+      <div class="kart-icerik">
+        <h3>Özel Gün Tasarımları</h3>
+        <p>Millî ve özel günler için hazırlanan görsel çalışmalar.</p>
+      </div>
+    </div>
+  </div>
 </section>
-
 
 <section class="bolum">
-
-<div class="iletisim">
-
-<h2>Bir fikriniz mi var?</h2>
-
-<p>
-Fikrinizi birlikte özgün bir görsele dönüştürelim.
-</p>
-
-<br>
-
-<p>
-<strong>Nebiye Taşkın</strong>
-</p>
-
-</div>
-
+  <div class="iletisim">
+    <h2>Bir fikriniz mi var?</h2>
+    <p>Fikrinizi birlikte özgün bir görsele dönüştürelim.</p>
+    <br>
+    <p><strong>Nebiye Taşkın</strong></p>
+  </div>
 </section>
 
-
 <footer>
-
-<p>Hazırlayan: Nebiye Taşkın</p>
-
-<p class="sari-kalp">💛</p>
-
+  <p>Hazırlayan: Nebiye Taşkın</p>
+  <p class="sari-kalp">💛</p>
 </footer>
-
-
 </body>
 </html>
